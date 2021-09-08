@@ -19,6 +19,7 @@ $router->get('/', function () use ($router) {
 
 
 $router->group(['prefix'=>'api/v1/'],function()use ($router){
-    $router->post('marketing_users','MarketingUserController@create');
+    $router->post('marketing_user','MarketingUserController@create');
+    $router->delete('marketing_user/{user_id}','MarketingUserController@opt_out');
 });
 

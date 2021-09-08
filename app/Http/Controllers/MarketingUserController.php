@@ -22,7 +22,7 @@ class MarketingUserController extends Controller
 
   }
 
-  public function opt_out(int $user_id)
+  public function opt_out($user_id)
   {
     $User = MarketingUser::find($user_id);
     if($User){
