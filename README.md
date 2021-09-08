@@ -1,6 +1,7 @@
 Endpoints:
 
 to create the user 
+
     post /api/v1/marketing_user/1
 
     {
