@@ -2,7 +2,7 @@ Endpoints:
 
 to create the user 
 
-    post /api/v1/marketing_user/1
+    post /api/v1/marketing_user
 
     {
     "email": "emilio@test.com",
