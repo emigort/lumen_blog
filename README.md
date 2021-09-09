@@ -13,7 +13,7 @@ to create the user
 
 to remove the user from the list
 
-    delete api/v1/marketing_user/1
+    delete api/v1/marketing_user/{id}
 
 
 sql statement to create the table
